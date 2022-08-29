@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        border: 10px solid #f3f3f3; /* Light grey */
+        border-top: 10px solid #464242; /* Blue */
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        animation: loader 2s linear infinite;
+        margin: 250px auto;
+      }
+
+      @keyframes loader {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main"></div>
+  </body>
+</html>
